@@ -1,0 +1,132 @@
+---
+title: Home
+---
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-tagline">
+      <span class="material-symbols-outlined" style="font-size:16px">alt_route</span>
+      v0.0.1-SNAPSHOT
+    </div>
+    <h1 class="hero-title">A governed state control plane<br>for async workflows</h1>
+    <p class="hero-desc">Run by applications, humans, and AI agents. Every action becomes a versioned, auditable state transition across parallel workflow layers with enforceable contracts and guardable autonomy.</p>
+    <div class="hero-actions">
+      <a href="{{ site.baseurl }}/features/" class="btn btn-primary">
+        <span class="material-symbols-outlined">explore</span>
+        Explore features
+      </a>
+      <a href="https://github.com/{{ site.repository }}" class="btn btn-secondary" target="_blank" rel="noopener">
+        <span class="material-symbols-outlined">code</span>
+        View on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Capabilities</span>
+      <h2 class="section-title">Everything you need to govern async workflows</h2>
+      <p class="section-desc">Parallel Path combines state machine orchestration with enterprise-grade governance, AI integration, and real-time observability.</p>
+    </div>
+    <div class="feature-grid">
+      {% for feature in site.data.features limit:6 %}
+      <div class="feature-card">
+        <span class="feature-card-icon material-symbols-outlined">{{ feature.icon }}</span>
+        <h3 class="feature-card-title">{{ feature.title }}</h3>
+        <p class="feature-card-desc">{{ feature.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner">
+    <div class="architecture-section">
+      <div class="architecture-content">
+        <span class="section-label">Architecture</span>
+        <h2 class="section-title">Multi-layer parallel state engine</h2>
+        <p class="section-desc">Unlike traditional linear state machines, Parallel Path lets you define multiple independent workflow layers that run in parallel within a single instance. Layers communicate through domain events, not direct coupling.</p>
+        <div class="arch-points">
+          <div class="arch-point">
+            <span class="arch-point-icon material-symbols-outlined">layers</span>
+            <div class="arch-point-text">
+              <h4>Independent layer execution</h4>
+              <p>Each layer has its own states, transitions, and guards — all within one workflow instance.</p>
+            </div>
+          </div>
+          <div class="arch-point">
+            <span class="arch-point-icon material-symbols-outlined">sync_alt</span>
+            <div class="arch-point-text">
+              <h4>Event-driven coordination</h4>
+              <p>Layers communicate via domain events. No direct method calls, no tight coupling.</p>
+            </div>
+          </div>
+          <div class="arch-point">
+            <span class="arch-point-icon material-symbols-outlined">verified</span>
+            <div class="arch-point-text">
+              <h4>Guarded autonomy</h4>
+              <p>Every transition passes through a configurable guard registry before any state change occurs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="architecture-image">
+        <img src="{{ site.baseurl }}/assets/images/architecture.svg" alt="Parallel Path architecture diagram showing multiple workflow layers">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Why Parallel Path</span>
+      <h2 class="section-title">Designed for complex multi-actor workflows</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-card-icon material-symbols-outlined">account_tree</span>
+        <h3 class="feature-card-title">vs. Linear State Machines</h3>
+        <p class="feature-card-desc">Single-dimension state machines require complex workarounds for parallel flows. Parallel Path handles multi-dimensional state natively.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-card-icon material-symbols-outlined">psychology</span>
+        <h3 class="feature-card-title">vs. Workflow Engines</h3>
+        <p class="feature-card-desc">Traditional engines lack guardable autonomy and audit granularity. Parallel Path provides versioned, inspectable transitions by design.</p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-card-icon material-symbols-outlined">smart_toy</span>
+        <h3 class="feature-card-title">Built for AI Agents</h3>
+        <p class="feature-card-desc">MCP Server integration, agent service accounts, and LLM guard prompts enable safe autonomous agent orchestration.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="section-inner">
+    <span class="section-label">Get Started</span>
+    <h2 class="section-title">Running in 2 minutes</h2>
+    <p class="section-desc">Prerequisites: Java 21, Maven 3.9+, Docker</p>
+    <div class="cta-code">
+      git clone https://github.com/{{ site.repository }}.git<br>
+      cd {{ site.repository }}<br>
+      mvn clean install -DskipTests<br>
+      docker-compose up -d<br>
+      mvn spring-boot:run -pl app<br>
+    </div>
+    <div class="hero-actions">
+      <a href="https://github.com/{{ site.repository }}" class="btn btn-primary" target="_blank" rel="noopener">
+        <span class="material-symbols-outlined">code</span>
+        Clone on GitHub
+      </a>
+      <a href="{{ site.baseurl }}/features/demo-workflows" class="btn btn-secondary">
+        <span class="material-symbols-outlined">play_circle</span>
+        View demo workflows
+      </a>
+    </div>
+  </div>
+</section>

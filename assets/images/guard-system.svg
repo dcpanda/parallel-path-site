@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" fill="none">
+  <rect x="28" y="18" width="544" height="444" rx="16" fill="#ffffff" stroke="#c6c6cd" stroke-width="1.5"/>
+  <text x="300" y="52" font-family="Inter, sans-serif" font-size="15" font-weight="600" fill="#0b1c30" text-anchor="middle">Transition Guard Flow</text>
+  <rect x="220" y="74" width="160" height="38" rx="8" fill="#eff4ff" stroke="#c6c6cd" stroke-width="1"/>
+  <text x="300" y="98" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#0b1c30" text-anchor="middle">Event Received</text>
+  <line x1="300" y1="112" x2="300" y2="140" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="220" y="140" width="160" height="38" rx="8" fill="#eff4ff" stroke="#c6c6cd" stroke-width="1"/>
+  <text x="300" y="164" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#0b1c30" text-anchor="middle">Transition Evaluated</text>
+  <line x1="300" y1="178" x2="300" y2="206" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="180" y="206" width="240" height="38" rx="8" fill="#dce9ff" stroke="#0058be" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="300" y="230" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#0058be" text-anchor="middle">Guard Registry</text>
+  <line x1="140" y1="244" x2="140" y2="280" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="300" y1="244" x2="300" y2="280" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="244" x2="460" y2="280" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="80" y="280" width="120" height="48" rx="8" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="140" y="300" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#991b1b" text-anchor="middle">AI Guard</text>
+  <text x="140" y="316" font-family="Inter, sans-serif" font-size="9" fill="#991b1b" text-anchor="middle">LLM prompt check</text>
+  <rect x="240" y="280" width="120" height="48" rx="8" fill="#fef3c7" stroke="#ca8a04" stroke-width="1"/>
+  <text x="300" y="300" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#92400e" text-anchor="middle">Voting Guard</text>
+  <text x="300" y="316" font-family="Inter, sans-serif" font-size="9" fill="#92400e" text-anchor="middle">Quorum threshold</text>
+  <rect x="400" y="280" width="120" height="48" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="460" y="300" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1e40af" text-anchor="middle">Webhook Guard</text>
+  <text x="460" y="316" font-family="Inter, sans-serif" font-size="9" fill="#1e40af" text-anchor="middle">External validation</text>
+  <line x1="140" y1="328" x2="140" y2="358" stroke="#ef4444" stroke-width="1.5"/>
+  <line x1="300" y1="328" x2="300" y2="358" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="460" y1="328" x2="460" y2="358" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="180" y="358" width="240" height="38" rx="8" fill="#dce9ff" stroke="#0058be" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="300" y="382" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#0058be" text-anchor="middle">ALL pass?</text>
+  <line x1="200" y1="396" x2="200" y2="430" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="150" y="422" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#ef4444" text-anchor="end">No</text>
+  <rect x="50" y="430" width="160" height="28" rx="8" fill="#fee2e2" stroke="#ef4444" stroke-width="1"/>
+  <text x="130" y="449" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#991b1b" text-anchor="middle">Transition blocked</text>
+  <line x1="400" y1="396" x2="400" y2="430" stroke="#10b981" stroke-width="1.5"/>
+  <text x="380" y="422" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#10b981" text-anchor="end">Yes</text>
+  <rect x="390" y="430" width="160" height="28" rx="8" fill="#d1fae5" stroke="#10b981" stroke-width="1"/>
+  <text x="470" y="449" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#065f46" text-anchor="middle">State changed</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

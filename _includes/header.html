@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ site.baseurl }}/" class="header-logo">
+      <span class="logo-icon material-symbols-outlined">alt_route</span>
+      <span class="logo-text">Parallel Path</span>
+    </a>
+    <nav class="header-nav">
+      <a href="{{ site.baseurl }}/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="{{ site.baseurl }}/features/" class="nav-link {% if page.path contains 'features' and page.url != '/features/' %}active{% endif %}">Features</a>
+      <a href="{{ site.baseurl }}/releases" class="nav-link {% if page.url contains '/releases' %}active{% endif %}">Releases</a>
+      <a href="https://github.com/{{ site.repository }}" class="nav-link nav-link-external" target="_blank" rel="noopener">
+        <span class="material-symbols-outlined">code</span>
+        GitHub
+      </a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,9 @@
+- title: Home
+  url: /
+- title: Features
+  url: /features/
+- title: Releases
+  url: /releases
+- title: GitHub
+  url: https://github.com/dcpanda/parallel-path
+  external: true

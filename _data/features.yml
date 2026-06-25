@@ -1,0 +1,47 @@
+- title: Parallel Layers
+  icon: layers
+  desc: Run multiple independent workflow layers in parallel. Each layer has its own states, transitions, and guards — all within a single workflow instance.
+
+- title: Guard System
+  icon: verified
+  desc: Every transition passes through configurable guards. AI, voting, webhook, and SpEL guards enforce governance before any state change.
+
+- title: AI Agent Integration
+  icon: smart_toy
+  desc: Built-in MCP Server exposes 12+ engine tools to AI agents. Define agent contracts, scoped API keys, and LLM prompt templates.
+
+- title: Task Engine
+  icon: assignment
+  desc: Human-in-the-loop workflows with task lifecycle management. Supports approvals, reviews, escalations, and SLA deadlines.
+
+- title: Audit & Compliance
+  icon: contract
+  desc: Every action is a versioned, auditable state transition. Generate compliance evidence packs for SOC 2, HIPAA, and GDPR.
+
+- title: Real-time Monitoring
+  icon: monitoring
+  desc: Server-Sent Events for live workflow updates. Custom health indicators, metrics collection, and configurable thresholds.
+
+- title: Multi-tenancy
+  icon: groups
+  desc: Tenant-isolated workflows with X-Tenant-Id propagation. Team-based permissions and namespaced payload isolation.
+
+- title: Temporal Management
+  icon: schedule
+  desc: Scheduled state starts, automated retries with configurable intervals, and runtime temporal condition updates.
+
+- title: Webhooks
+  icon: webhook
+  desc: HMAC-SHA256 signed callbacks with outbox pattern delivery. Exponential backoff retry and delivery tracking.
+
+- title: Security
+  icon: lock
+  desc: Three authentication paths — master key, agent service accounts, and user-scoped API keys. Rate limiting and audit logging.
+
+- title: Persistence-first
+  icon: database
+  desc: Atomic write-through architecture. Database is persisted before cache updates — never bypass the write path.
+
+- title: Simulation
+  icon: science
+  desc: Dry-run transitions to preview consequences before committing. Safe experimentation without side effects.
