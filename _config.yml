@@ -2,7 +2,7 @@ title: "Parallel Path"
 tagline: "A Governed State Control Plane"
 description: "Orchestrate complex async workflows across parallel layers with guarded autonomy. Every action becomes a versioned, auditable state transition."
 url: "https://dcpanda.github.io/parallel-path-site"
-baseurl: ""
+baseurl: "/parallel-path-site"
 repository: dcpanda/parallel-path
 author: dcpanda
 show_downloads: false
