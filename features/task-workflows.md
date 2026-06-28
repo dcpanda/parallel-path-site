@@ -3,7 +3,7 @@ title: Task Workflows
 description: Human-in-the-loop workflows with task lifecycle management, SLA deadlines, and escalation paths.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Task Workflows</h1>
 <p class="page-desc">Parallel Path provides a full task engine for human-in-the-loop workflows. Tasks represent points where a human decision, review, or action is required before the workflow can proceed.</p>

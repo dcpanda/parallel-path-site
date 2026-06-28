@@ -3,7 +3,7 @@ title: Features
 description: Explore all capabilities of the Parallel Path state control plane.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 <h1>Features</h1>
 <p class="page-desc">Parallel Path provides a comprehensive set of capabilities for orchestrating complex async workflows with governance, auditability, and AI integration.</p>
 

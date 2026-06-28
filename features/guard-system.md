@@ -3,7 +3,7 @@ title: Guard System
 description: Every transition passes through configurable guards that enforce governance before any state change.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Guard System</h1>
 <p class="page-desc">Every state transition in Parallel Path is governed by a configurable guard registry. Before any state change occurs, all registered guards must pass — ensuring no ungoverned moves in the system.</p>

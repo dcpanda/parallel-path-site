@@ -3,7 +3,7 @@ title: Demo Workflows
 description: Nine ready-to-run workflow examples demonstrating the full capabilities of Parallel Path.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Demo Workflows</h1>
 <p class="page-desc">The project includes nine self-contained demo workflows that showcase different aspects of the engine. Each workflow is defined as a JSON file in the <code>demo/</code> module and can be loaded at startup.</p>

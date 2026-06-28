@@ -3,7 +3,7 @@ title: Monitoring
 description: Real-time observability with custom health indicators, metrics, and Server-Sent Events.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Monitoring</h1>
 <p class="page-desc">Parallel Path provides comprehensive observability through Spring Actuator custom health indicators, structured metrics collection, and real-time Server-Sent Events for live workflow updates.</p>

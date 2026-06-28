@@ -3,7 +3,7 @@ title: AI Agent Integration
 description: Native Model Context Protocol (MCP) server for AI agent orchestration with scoped contracts and LLM guard prompts.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>AI Agent Integration</h1>
 <p class="page-desc">Parallel Path provides a built-in MCP Server that exposes the full engine API to AI agents. Combine agent autonomy with governance through scoped contracts, LLM guard prompts, and activity tracking.</p>

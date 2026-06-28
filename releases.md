@@ -3,7 +3,7 @@ title: Releases
 description: Version history and changelog for Parallel Path.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Releases</h1>
 <p class="page-desc">Current version: <strong>v0.0.1-SNAPSHOT</strong> — active development. Track releases on <a href="https://github.com/{{ site.repository }}/releases" target="_blank" rel="noopener">GitHub Releases</a>.</p>

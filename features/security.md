@@ -3,7 +3,7 @@ title: Security
 description: Three-tier authentication, multi-tenancy, rate limiting, and comprehensive audit logging.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Security</h1>
 <p class="page-desc">Parallel Path implements defense-in-depth security with multiple authentication paths, tenant isolation, rate limiting, and full audit logging. Security is profile-gated and only active in production profiles.</p>

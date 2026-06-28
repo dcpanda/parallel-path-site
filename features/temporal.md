@@ -3,7 +3,7 @@ title: Temporal Management
 description: Scheduled state starts, automated retries, and runtime temporal condition updates.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Temporal Management</h1>
 <p class="page-desc">Parallel Path supports time-based workflow automation through scheduled state starts, automated retry logic, and runtime intervention tools. States can be configured to activate at specific times or retry on failure with configurable intervals.</p>

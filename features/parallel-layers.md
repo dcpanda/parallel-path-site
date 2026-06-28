@@ -3,7 +3,7 @@ title: Parallel Layers
 description: Multi-layer state execution enables concurrent, independent workflow paths within a single instance.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Parallel Layers</h1>
 <p class="page-desc">Unlike traditional single-dimension state machines, Parallel Path lets you define multiple independent layers (tracks) that run concurrently within one workflow instance. Each layer progresses autonomously while coordinating through domain events.</p>

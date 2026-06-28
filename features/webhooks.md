@@ -3,7 +3,7 @@ title: Webhooks
 description: Resilient external notifications with HMAC-SHA256 signing and outbox pattern delivery.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Webhooks</h1>
 <p class="page-desc">Parallel Path provides a robust webhook system for notifying external systems of workflow events. Webhooks use HMAC-SHA256 signed payloads, outbox pattern delivery, and exponential backoff retry.</p>

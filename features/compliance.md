@@ -3,7 +3,7 @@ title: Compliance
 description: SOC 2, HIPAA, and GDPR-ready audit trails with evidence pack generation.
 ---
 
-<div class="content-page">
+<div class="content-page" markdown="1">
 
 <h1>Compliance</h1>
 <p class="page-desc">Parallel Path is designed from the ground up for regulated environments. Every state transition is a versioned, inspectable audit record. Generate structured compliance evidence packs for SOC 2, HIPAA, and GDPR frameworks.</p>

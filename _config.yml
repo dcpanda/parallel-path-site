@@ -3,16 +3,15 @@ tagline: "A Governed State Control Plane"
 description: "Orchestrate complex async workflows across parallel layers with guarded autonomy. Every action becomes a versioned, auditable state transition."
 url: "https://dcpanda.github.io/parallel-path-site"
 baseurl: ""
-repository: dcpanda/parallel-path-site
+repository: dcpanda/parallel-path
 author: dcpanda
 show_downloads: false
+markdown: kramdown
+kramdown:
+  input: GFM
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: false
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -25,6 +24,7 @@ defaults:
       path: "features"
     values:
       layout: default
+      markdown: kramdown
   - scope:
       path: ""
     values:
